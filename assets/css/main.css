@@ -1,0 +1,104 @@
+@font-face {
+    font-family: lobster;
+    src: url(../font/Lobster.otf);
+}
+
+@font-face {
+    font-family: bellerose;
+    src: url(../font/Bellerose.ttf);
+}
+
+@font-face {
+    font-family: vanillawhale;
+    src: url(../font/vanilla\ whale.ttf);
+}
+
+body{
+    background-image: url(../images/sfondo.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.griglia{
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.colonna{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.riga{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.centrale{
+    flex: 8;
+    align-items: center;
+}
+
+.titolo-sezione{
+    color: white;
+    font-family: vanillawhale;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+#logo{
+    margin-bottom: 20%;
+    width: 50%;
+    margin-top: 20%;
+}
+
+.elemento{
+    flex: 8;
+}
+
+.titolo{
+    color: white;
+    font-family: bellerose;
+    font-weight: 100;
+    font-size: 35px;
+    margin: 0;
+}
+
+.prezzo{
+    flex: 2;
+    align-items: flex-end;
+}
+
+.prezzo > h2{
+    color: white;
+    font-family: bellerose;
+    font-weight: 100;
+    font-size: 35px;
+    margin: 0;
+}
+
+.descrizione{
+    color: white;
+    font-family: bellerose;
+    font-weight: 100;
+    font-size: 25px;
+    margin-top: -20px;
+    margin-bottom: 0;
+}
+
+.centrato{
+    justify-content: center;
+}
+
+.titolo-menu{
+    color: white;
+    font-family: vanillawhale;
+    font-size: 200px;
+    font-weight: 100;
+}
