@@ -108,6 +108,10 @@ body{
     line-height: initial;
 }
 
+.contorni{
+    width: 100%;
+}
+
 .contorni > *{
     margin-top: -10px;
 }
