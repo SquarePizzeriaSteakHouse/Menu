@@ -107,3 +107,7 @@ body{
 .centrale .descrizione{
     line-height: initial;
 }
+
+.contorni > *{
+    margin-top: -10px;
+}
