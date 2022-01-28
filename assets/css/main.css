@@ -103,3 +103,7 @@ body{
     font-size: 200px;
     font-weight: 100;
 }
+
+.colonna-centrale .descrizione{
+    line-height: initial;
+}
