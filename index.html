@@ -1,944 +1,2231 @@
-<!doctype html>
-
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>Square - Food & Drink</title>
-  <meta name="description" content="Square - Food & Drink">
-  <meta name="author" content="Mattia Lenza">
-
-  <link rel="stylesheet" href="./assets/css/main.css">
-  <!-- test -->
-</head>
-
-<body>
-  <div class="griglia">
-    <div class="colonna">
-      &nbsp;
-    </div>
-    <div class="colonna centrale">
-      <img id="logo" src="./assets/images/logo.png" alt="Logo square food & drink">
-
-      <h1 class="titolo-menu">MENU’</h1>
-
-      <!-- ANTIPASTI -->
-
-      <div class="riga">
-        <h1 class="titolo-sezione">antipasti</h1>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Chips</h2>
-          <p class="descrizione">Semplici /Cacio e Pepe</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>3.00/3.50</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Mix Bruschette (4pz)</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>3.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Crostini misti (4pz)</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Fritti misti</h2>
-          <p class="descrizione">(supplì, fiori di zucca, anelli di cipolla, olive ascolane, crocchette di patate)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>7.50</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Supplì</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>1.50</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Mix Salumi</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>9.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Mix Formaggi</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>9.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Mix Verdure</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>7.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Tagliere Mix</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>12.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Coratella</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.00</h2>
-        </div>
-      </div>
-
-      <!-- PIZZE -->
-
-      <div class="riga">
-        <h1 class="titolo-sezione">pizze</h1>
-      </div>
-
-      <div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Marinara</h2>
-          <p class="descrizione">(pomodoro, aglio, origano)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>4.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Margherita</h2>
-          <p class="descrizione">(pomodoro, mozzarella)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>5.00</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Diavola</h2>
-          <p class="descrizione">(pomodoro, mozzarella, salame piccante)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.00</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Focaccia Caprese</h2>
-          <p class="descrizione">(focaccia, pomodoro fresco, mozzarella fresca, origano)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.00</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Americana</h2>
-          <p class="descrizione">(pomodoro, mozzarella, wurstel, patatine fritte)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Funghi e Salsiccia</h2>
-          <p class="descrizione">(pomodoro, mozzarella, funghi, salsiccia)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Napoli</h2>
-          <p class="descrizione">(pomodoro, mozzarella, alici)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.00</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Tonno e Cipolla</h2>
-          <p class="descrizione">(pomodoro, mozzarella, tonno, cipolla)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Tonno e Carciofi</h2>
-          <p class="descrizione">(pomodoro, mozzarella, tonno, carciofi)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Prosciutto e Funghi</h2>
-          <p class="descrizione">(pomodoro, mozzarella, crudo, funghi)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Vegetariana</h2>
-          <p class="descrizione">(pomodoro, mozzarella, zucchine, melanzane, peperoni grigliati)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Bufala</h2>
-          <p class="descrizione">(pomodoro, mozzarella di bufala)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Provola e Speck</h2>
-          <p class="descrizione">(mozzarella, provola, speck)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Radicchio e Gorgonzola</h2>
-          <p class="descrizione">(mozzarella, radicchio, gorgonzola)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Cipolla Gorgonzola e Alici</h2>
-          <p class="descrizione">(mozzarella, cipolla, gorgonzola, alici)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">4 Formaggi</h2>
-          <p class="descrizione">(mozzarella, gorgonzola, edamer, grana, emmental)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Focaccia Primavera</h2>
-          <p class="descrizione">(focaccia, mozzarella fresca, rucola, mais, pachino, grana)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Campana</h2>
-          <p class="descrizione">(focaccia, bufala, pachino, rucola)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Rucolana</h2>
-          <p class="descrizione">(mozzarella, crudo, pachino, rucola)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Boscaiola</h2>
-          <p class="descrizione">(pomodoro, mozzarella, pancetta, funghi)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Golden</h2>
-          <p class="descrizione">(mozzarella, funghi, salsiccia, zafferano)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>7.00</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Cicoria e Salsiccia</h2>
-          <p class="descrizione">(mozzarella, cicoria, salsiccia)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Valtellinese</h2>
-          <p class="descrizione">(mozzarella, rucola, bresaola, grana)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Capricciosa</h2>
-          <p class="descrizione">(pomodoro, mozzarella, cotto, funghi, carciofi, uovo sodo, olive)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>7.00</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">4 Stagioni</h2>
-          <p class="descrizione">(pomodoro, mozzarella, crudo, funghi, carciofi, olive)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>7.00</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Calabrese</h2>
-          <p class="descrizione">(pomodoro, mozzarella, salame piccante, melanzane, grana)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>7.00</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Patate Tartufo e Salsiccia</h2>
-          <p class="descrizione">(mozzarella, patate, tartufo, salsiccia)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>7.00</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Aquilana</h2>
-          <p class="descrizione">(mozzarella, salsiccia, panna, zafferano)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>7.00</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Pizzolana</h2>
-          <p class="descrizione">(pomodoro, mozzarella, guanciale, pecorino)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Campagnola</h2>
-          <p class="descrizione">(mozzarella, patate, tonno, zucchine, cipolla, olive nere)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>7.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Galeone</h2>
-          <p class="descrizione">(pomodoro, bufala, pachino, pancetta)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>7.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Regina</h2>
-          <p class="descrizione">(4 formaggi, salsiccia, cipolle, peperoni)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>8.00</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Pistacchi-ella</h2>
-          <p class="descrizione">(bufala, granella di pistacchio, mortadella, rucola)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>8.50</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Delicata</h2>
-          <p class="descrizione">(bufala, porcini, pachino, salsiccia, crudo)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>9.00</h2>
-        </div>
-      </div><div class="riga pizza">
-        <div class="colonna elemento">
-          <h2 class="titolo">Del Pizzaiolo</h2>
-          <p class="descrizione">(pomodoro, mozzarella, salame piccante, salsiccia, funghi, peperoni, gorgonzola)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>9.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna centrale">
-          <p class="descrizione">Ingrediente aggiuntivo +1.00</p>
-          <p class="descrizione">Mozzarella di bufala +1.50</p>
-          <p class="descrizione">Mozzarella senza lattosio +1.00</p>
-        </div>
-      </div>
-
-      <div class="riga">
-        <h1 class="titolo-sezione">calzoni</h1>
-      </div>
-
-     
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Semplice </h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>5.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Funghi e Prosciutto cotto </h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Quattro formaggi </h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>6.50</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <h1 class="titolo-sezione">steakhouse</h1>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Tagliata di Manzo (500gr circa)</h2>
-          <p class="descrizione"></p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>20.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Tagliata di Pollo</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>10.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Arrosticini</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>1.00cad.</h2>
-        </div>
-      </div>
-
-      <div class="riga" style="justify-content: space-between">
-        <h1 class="titolo-sezione">hamburger</h1>
-        <h2 class="titolo">180gr/300gr</h2>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Semplice</h2>
-          <p class="descrizione">(scottona, pomodoro, lattuga)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>7.00/12.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Cheeseburger</h2>
-          <p class="descrizione">(scottona, pomodoro, cipolla, cetriolini, cheddar, lattuga)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>8.00/13.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Montanaro</h2>
-          <p class="descrizione">(scottona, funghi, parmigiano, pomodoro, senape)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>8.00/13.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Tartufato</h2>
-          <p class="descrizione">(scottona, lattuga, porcini, speck alla griglia, maionese al tartufo)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>8.50/14.00</h2>
-        </div>
-      </div>
-      
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Baconburger</h2>
-          <p class="descrizione">(scottona, bacon, uovo, cipolla, salsa barbecue, lattuga)</p>
-        </div>
-        <div class="colonna prezzo">
-          <h2>8.50/14.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna centrale">
-          <p class="descrizione">+Chips 1.50</p>
-        </div>
-      </div>
-      
-      <div class="riga">
-        <div class="colonna centrale">
-          <p class="descrizione">+Patatine 2.00</p>
-        </div>
-      </div>
-
-      <div class="riga">
-        <h1 class="titolo-sezione">contorni</h1>
-      </div>
-
-      <div class="colonna contorni">
-        <div class="riga">
-          <div class="colonna elemento">
-            <h2 class="titolo">Insalata mista</h2>
-          </div>
-          <div class="colonna prezzo">
-            <h2>3.00</h2>
-          </div>
-        </div>
-  
-        <div class="riga">
-          <div class="colonna elemento">
-            <h2 class="titolo">Patatine fritte</h2>
-          </div>
-          <div class="colonna prezzo">
-            <h2>3.50</h2>
-          </div>
-        </div>
-  
-        <div class="riga">
-          <div class="colonna elemento">
-            <h2 class="titolo">Cicoria</h2>
-          </div>
-          <div class="colonna prezzo">
-            <h2>4.00</h2>
-          </div>
-        </div>
-  
-        <div class="riga">
-          <div class="colonna elemento">
-            <h2 class="titolo">Verdure grigliate</h2>
-          </div>
-          <div class="colonna prezzo">
-            <h2>4.00</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="riga">
-        <h1 class="titolo-sezione">bevande</h1>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Acqua 0.75L</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>2.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">CocaCola,  Fanta (Vetro 0.33)</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>2.50</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Hobgoblin IPA 0.5l</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>5.00</h2>
-        </div>
-      </div>
-      
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Mezzopasso Disco 2000 IPA 0.33l</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>4.00</h2>
-        </div>
-      </div>
-      
-       <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Mezzopasso Paranoid Dunkel 0.33l</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>3.50</h2>
-        </div>
-      </div>
-      
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Mezzopasso Hibou Dopple Bock 0.33l</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>3.50</h2>
-        </div>
-     
-      </div> <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Mezzopasso Blanche 0.33l</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>3.50</h2>
-        </div>
-      </div>
-      
-      </div> <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Mezzopasso Casello54 nonfiltr. 0.33l</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>3.50</h2>
-        </div>
-      </div>
-      
-      </div> <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Winkler Bräu Kupfer Spezial Bock 0.5l</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>4.50</h2>
-        </div>
-      </div>
-      
-      </div> <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Marzen (affumicata) 0.5l</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>4.50</h2>
-        </div>
-      </div>
-      
-      </div> <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Marzen dopple bock (affumicata) 0.5l</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>4.50</h2>
-        </div>
-      </div>
-
-      </div> <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Grevensteiner original 0.5l</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>4.50</h2>
-        </div>
-      </div>
-
-      </div> <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Schalchner Weisser Bock 0.5l</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>4.50</h2>
-        </div>
-      </div>
-
-      </div> <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Lauterbacher Hell 0.5l</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>4.50</h2>
-        </div>
-      </div>
-
-      </div> <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Lauterbacher Brotzei 0.5l</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>4.50</h2>
-        </div>
-      </div>
-
-      </div> <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Ayinger Bräu-Weisse 0.5l</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>4.50</h2>
-        </div>
-      </div>
-
-      </div> <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Konig Ludwig Weiss 0.5l</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>4.50</h2>
-        </div>
-      </div>
-
-      </div> <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Stein lager hell 0.5l</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>4.50</h2>
-        </div>
-      </div>
-
-      </div> <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Stein Pils 0.5l</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>4.50</h2>
-        </div>
-      </div>
-
-
-      <div class="riga">
-        <h1 class="titolo-sezione">vini</h1>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Mezzadro (Montepulciano,  Passerina,  Rosato)</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>7.50</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Cantina Bove Indio</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>16.00</h2>
-        </div>
-      </div>
-      
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Cantina Cioti Alarius montepulciano Bio</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>18.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Cantina Pesolillo montepulciano Bio</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>18.00</h2>
-        </div>
-      </div>
-     
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Cantina Ulisse montepulciano Unico</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>20.00</h2>
-        </div>
-      </div>
-
-     <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Cantina Ulisse montepulciano Amaranta</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>24.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Cantina Cioti Pathernus Riserva</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>24.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Cantina Ulisse pecorino Unico</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>17.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Cantina Pesolillo pecorino Superiore Abruzzo</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>18.00</h2>
-        </div>
-      </div>
-      
-       <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Cantina Cioti Orange</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>20.00</h2>
-        </div>
-      </div>
-     
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Villa Gemma</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>20.00</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Cantina Ulisse cerasuolo Unico</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>18.00</h2>
-        </div>
-      </div>
-     
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Cantina Cioti cerasuolo Pathernus</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>18.00</h2>
-        </div>
-      </div>
-    
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Cantina Pesolillo rosato Terre di Chieti</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>18.00</h2>
-        </div>
-      </div>
-    
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Cantina Ulisse Rosè</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>24.00</h2>
-        </div>
-      </div>
-      
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo"></h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2></h2>
-        </div>
-      </div>
-
-      
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">&nbsp;</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>&nbsp;</h2>
-        </div>
-      </div>
-
-      <div class="riga">
-        <div class="colonna elemento">
-          <h2 class="titolo">Coperto</h2>
-        </div>
-        <div class="colonna prezzo">
-          <h2>2.00</h2>
-        </div>
-      </div>
-
-      
-   
-
-    </div>
-    <div class="colonna">
-      &nbsp;
-    </div>
-  </div>
+	<head>
+		  
+		<meta charset="utf-8"/>
+		  <title>Square - Food &amp; Drink</title>  
+		<meta name="description" content="Square" - food &amp; drink"/>
+		  
+		<meta name="author" content="Mattia" lenza"/>
+		  
+		<link rel="stylesheet" href="./assets/css/main.css"/>
+		  
+		<!-- test --></!-->
+	<body>
+		  
+		<div class="griglia">
+			    
+			<div class="colonna">
+				      &nbsp;    
+			</div>
+			    
+			<div class="colonna" centrale">
+				      
+				<img id="logo" src="./assets/images/logo.png" alt="Logo" square food &amp; drink"/>
+				      
+				<h1 class="titolo-menu">
+					MENU&rsquo;
+				</h1>
+				      
+				<!-- antipasti -->
+				      
+				<div class="riga">
+					        
+					<h1 class="titolo-sezione">
+						antipasti
+					</h1>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Chips
+						</h2>
+						          
+						<p class="descrizione">
+							Semplici /Cacio e Pepe
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							3.00/3.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Mix Bruschette (4pz)
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							3.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Crostini misti (4pz)
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Fritti misti
+						</h2>
+						          
+						<p class="descrizione">
+							(suppl&igrave;, fiori di zucca, anelli di cipolla, olive ascolane, crocchette di patate)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							7.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Suppl&igrave;
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							1.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Mix Salumi
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							9.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Mix Formaggi
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							9.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Mix Verdure
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							7.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Tagliere Mix
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							12.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Coratella
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<!-- pizze -->
+				      
+				<div class="riga">
+					        
+					<h1 class="titolo-sezione">
+						pizze
+					</h1>
+					      
+				</div>
+				      
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Marinara
+						</h2>
+						          
+						<p class="descrizione">
+							(pomodoro, aglio, origano)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							4.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Margherita
+						</h2>
+						          
+						<p class="descrizione">
+							(pomodoro, mozzarella)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							5.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Diavola
+						</h2>
+						          
+						<p class="descrizione">
+							(pomodoro, mozzarella, salame piccante)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Focaccia Caprese
+						</h2>
+						          
+						<p class="descrizione">
+							(focaccia, pomodoro fresco, mozzarella fresca, origano)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Americana
+						</h2>
+						          
+						<p class="descrizione">
+							(pomodoro, mozzarella, wurstel, patatine fritte)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Funghi e Salsiccia
+						</h2>
+						          
+						<p class="descrizione">
+							(pomodoro, mozzarella, funghi, salsiccia)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Napoli
+						</h2>
+						          
+						<p class="descrizione">
+							(pomodoro, mozzarella, alici)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Tonno e Cipolla
+						</h2>
+						          
+						<p class="descrizione">
+							(pomodoro, mozzarella, tonno, cipolla)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Tonno e Carciofi
+						</h2>
+						          
+						<p class="descrizione">
+							(pomodoro, mozzarella, tonno, carciofi)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Prosciutto e Funghi
+						</h2>
+						          
+						<p class="descrizione">
+							(pomodoro, mozzarella, crudo, funghi)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Vegetariana
+						</h2>
+						          
+						<p class="descrizione">
+							(pomodoro, mozzarella, zucchine, melanzane, peperoni grigliati)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Bufala
+						</h2>
+						          
+						<p class="descrizione">
+							(pomodoro, mozzarella di bufala)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Provola e Speck
+						</h2>
+						          
+						<p class="descrizione">
+							(mozzarella, provola, speck)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Radicchio e Gorgonzola
+						</h2>
+						          
+						<p class="descrizione">
+							(mozzarella, radicchio, gorgonzola)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Cipolla Gorgonzola e Alici
+						</h2>
+						          
+						<p class="descrizione">
+							(mozzarella, cipolla, gorgonzola, alici)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							4 Formaggi
+						</h2>
+						          
+						<p class="descrizione">
+							(mozzarella, gorgonzola, edamer, grana, emmental)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Focaccia Primavera
+						</h2>
+						          
+						<p class="descrizione">
+							(focaccia, mozzarella fresca, rucola, mais, pachino, grana)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Campana
+						</h2>
+						          
+						<p class="descrizione">
+							(focaccia, bufala, pachino, rucola)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Rucolana
+						</h2>
+						          
+						<p class="descrizione">
+							(mozzarella, crudo, pachino, rucola)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Boscaiola
+						</h2>
+						          
+						<p class="descrizione">
+							(pomodoro, mozzarella, pancetta, funghi)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Golden
+						</h2>
+						          
+						<p class="descrizione">
+							(mozzarella, funghi, salsiccia, zafferano)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							7.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Cicoria e Salsiccia
+						</h2>
+						          
+						<p class="descrizione">
+							(mozzarella, cicoria, salsiccia)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Valtellinese
+						</h2>
+						          
+						<p class="descrizione">
+							(mozzarella, rucola, bresaola, grana)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Capricciosa
+						</h2>
+						          
+						<p class="descrizione">
+							(pomodoro, mozzarella, cotto, funghi, carciofi, uovo sodo, olive)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							7.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							4 Stagioni
+						</h2>
+						          
+						<p class="descrizione">
+							(pomodoro, mozzarella, crudo, funghi, carciofi, olive)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							7.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Calabrese
+						</h2>
+						          
+						<p class="descrizione">
+							(pomodoro, mozzarella, salame piccante, melanzane, grana)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							7.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Patate Tartufo e Salsiccia
+						</h2>
+						          
+						<p class="descrizione">
+							(mozzarella, patate, tartufo, salsiccia)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							7.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Aquilana
+						</h2>
+						          
+						<p class="descrizione">
+							(mozzarella, salsiccia, panna, zafferano)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							7.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Pizzolana
+						</h2>
+						          
+						<p class="descrizione">
+							(pomodoro, mozzarella, guanciale, pecorino)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Campagnola
+						</h2>
+						          
+						<p class="descrizione">
+							(mozzarella, patate, tonno, zucchine, cipolla, olive nere)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							7.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Galeone
+						</h2>
+						          
+						<p class="descrizione">
+							(pomodoro, bufala, pachino, pancetta)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							7.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Regina
+						</h2>
+						          
+						<p class="descrizione">
+							(4 formaggi, salsiccia, cipolle, peperoni)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							8.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Pistacchi-ella
+						</h2>
+						          
+						<p class="descrizione">
+							(bufala, granella di pistacchio, mortadella, rucola)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							8.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Delicata
+						</h2>
+						          
+						<p class="descrizione">
+							(bufala, porcini, pachino, salsiccia, crudo)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							9.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				<div class="riga" pizza">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Del Pizzaiolo
+						</h2>
+						          
+						<p class="descrizione">
+							(pomodoro, mozzarella, salame piccante, salsiccia, funghi, peperoni, gorgonzola)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							9.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" centrale">
+						          
+						<p class="descrizione">
+							Ingrediente aggiuntivo +1.00
+						</p>
+						          
+						<p class="descrizione">
+							Mozzarella di bufala +1.50
+						</p>
+						          
+						<p class="descrizione">
+							Mozzarella senza lattosio +1.00
+						</p>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<h1 class="titolo-sezione">
+						calzoni
+					</h1>
+					      
+				</div>
+				           
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Semplice 
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							5.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Funghi e Prosciutto cotto 
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Quattro formaggi 
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							6.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<h1 class="titolo-sezione">
+						steakhouse
+					</h1>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Tagliata di Manzo (500gr circa)
+						</h2>
+						                  
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							20.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Tagliata di Pollo
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							10.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Arrosticini
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							1.00cad.
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga" style="justify-content:;" space-between">
+					        
+					<h1 class="titolo-sezione">
+						hamburger
+					</h1>
+					        
+					<h2 class="titolo">
+						180gr/300gr
+					</h2>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Semplice
+						</h2>
+						          
+						<p class="descrizione">
+							(scottona, pomodoro, lattuga)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							7.00/12.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Cheeseburger
+						</h2>
+						          
+						<p class="descrizione">
+							(scottona, pomodoro, cipolla, cetriolini, cheddar, lattuga)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							8.00/13.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Montanaro
+						</h2>
+						          
+						<p class="descrizione">
+							(scottona, funghi, parmigiano, pomodoro, senape)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							8.00/13.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Tartufato
+						</h2>
+						          
+						<p class="descrizione">
+							(scottona, lattuga, porcini, speck alla griglia, maionese al tartufo)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							8.50/14.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				            
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Baconburger
+						</h2>
+						          
+						<p class="descrizione">
+							(scottona, bacon, uovo, cipolla, salsa barbecue, lattuga)
+						</p>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							8.50/14.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" centrale">
+						          
+						<p class="descrizione">
+							+Chips 1.50
+						</p>
+						        
+					</div>
+					      
+				</div>
+				            
+				<div class="riga">
+					        
+					<div class="colonna" centrale">
+						          
+						<p class="descrizione">
+							+Patatine 2.00
+						</p>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<h1 class="titolo-sezione">
+						contorni
+					</h1>
+					      
+				</div>
+				      
+				<div class="colonna" contorni">
+					        
+					<div class="riga">
+						          
+						<div class="colonna" elemento">
+							            
+							<h2 class="titolo">
+								Insalata mista
+							</h2>
+							          
+						</div>
+						          
+						<div class="colonna" prezzo">
+							            
+							<h2>
+								3.00
+							</h2>
+							          
+						</div>
+						        
+					</div>
+					          
+					<div class="riga">
+						          
+						<div class="colonna" elemento">
+							            
+							<h2 class="titolo">
+								Patatine fritte
+							</h2>
+							          
+						</div>
+						          
+						<div class="colonna" prezzo">
+							            
+							<h2>
+								3.50
+							</h2>
+							          
+						</div>
+						        
+					</div>
+					          
+					<div class="riga">
+						          
+						<div class="colonna" elemento">
+							            
+							<h2 class="titolo">
+								Cicoria
+							</h2>
+							          
+						</div>
+						          
+						<div class="colonna" prezzo">
+							            
+							<h2>
+								4.00
+							</h2>
+							          
+						</div>
+						        
+					</div>
+					          
+					<div class="riga">
+						          
+						<div class="colonna" elemento">
+							            
+							<h2 class="titolo">
+								Verdure grigliate
+							</h2>
+							          
+						</div>
+						          
+						<div class="colonna" prezzo">
+							            
+							<h2>
+								4.00
+							</h2>
+							          
+						</div>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<h1 class="titolo-sezione">
+						bevande
+					</h1>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Acqua 0.75L
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							2.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							CocaCola,  Fanta (Vetro 0.33)
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							2.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				      
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Hobgoblin IPA 0.5l
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							5.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				            
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Mezzopasso Disco 2000 IPA 0.33l
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							4.00
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				             
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Mezzopasso Paranoid Dunkel 0.33l
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							3.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				            
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Mezzopasso Hibou Dopple Bock 0.33l
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							3.50
+						</h2>
+						        
+					</div>
+					           
+				</div>
+				 
+				<div class="riga">
+					        
+					<div class="colonna" elemento">
+						          
+						<h2 class="titolo">
+							Mezzopasso Blanche 0.33l
+						</h2>
+						        
+					</div>
+					        
+					<div class="colonna" prezzo">
+						          
+						<h2>
+							3.50
+						</h2>
+						        
+					</div>
+					      
+				</div>
+				            
+			</!-->
+			 
+			<div class="riga">
+				        
+				<div class="colonna" elemento">
+					          
+					<h2 class="titolo">
+						Mezzopasso Casello54 nonfiltr. 0.33l
+					</h2>
+					        
+				</div>
+				        
+				<div class="colonna" prezzo">
+					          
+					<h2>
+						3.50
+					</h2>
+					        
+				</div>
+				      
+			</div>
+			            
+		</!-->
+		 
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Winkler Br&auml;u Kupfer Spezial Bock 0.5l
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					4.50
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		             
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Marzen (affumicata) 0.5l
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					4.50
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		             
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Marzen dopple bock (affumicata) 0.5l
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					4.50
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		       
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Grevensteiner original 0.5l
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					4.50
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		       
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Schalchner Weisser Bock 0.5l
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					4.50
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		       
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Lauterbacher Hell 0.5l
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					4.50
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		       
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Lauterbacher Brotzei 0.5l
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					4.50
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		       
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Ayinger Br&auml;u-Weisse 0.5l
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					4.50
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		       
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Konig Ludwig Weiss 0.5l
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					4.50
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		       
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Stein lager hell 0.5l
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					4.50
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		       
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Stein Pils 0.5l
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					4.50
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		      
+		<div class="riga">
+			        
+			<h1 class="titolo-sezione">
+				vini
+			</h1>
+			      
+		</div>
+		      
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Mezzadro (Montepulciano,  Passerina,  Rosato)
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					7.50
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		      
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Cantina Bove Indio
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					16.00
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		            
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Cantina Cioti Alarius montepulciano Bio
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					18.00
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		      
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Cantina Pesolillo montepulciano Bio
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					18.00
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		           
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Cantina Ulisse montepulciano Unico
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					20.00
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		     
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Cantina Ulisse montepulciano Amaranta
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					24.00
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		      
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Cantina Cioti Pathernus Riserva
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					24.00
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		      
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Cantina Ulisse pecorino Unico
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					17.00
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		      
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Cantina Pesolillo pecorino Superiore Abruzzo
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					18.00
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		             
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Cantina Cioti Orange
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					20.00
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		           
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Villa Gemma
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					20.00
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		      
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Cantina Ulisse cerasuolo Unico
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					18.00
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		           
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Cantina Cioti cerasuolo Pathernus
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					18.00
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		          
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Cantina Pesolillo rosato Terre di Chieti
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					18.00
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		          
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Cantina Ulisse Ros&egrave;
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					24.00
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		            
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo"></h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2></h2>
+				        
+			</div>
+			      
+		</div>
+		            
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					&nbsp;
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					&nbsp;
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		      
+		<div class="riga">
+			        
+			<div class="colonna" elemento">
+				          
+				<h2 class="titolo">
+					Coperto
+				</h2>
+				        
+			</div>
+			        
+			<div class="colonna" prezzo">
+				          
+				<h2>
+					2.00
+				</h2>
+				        
+			</div>
+			      
+		</div>
+		                 
+		<div class="colonna">
+			      &nbsp;    
+		</div>
+		  
+	</div>
+</div>
 </body>
+</head>
 </html>
