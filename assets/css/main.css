@@ -47,7 +47,7 @@ body{
 
 .titolo-sezione{
     color: grey;
-    font-family: vanillawhale;
+    font-family:vanillawhale;
     font-size: 70px;
     font-weight: 100;
 }
@@ -77,7 +77,7 @@ body{
 
 .prezzo > h2{
     color: black;
-    font-family: bellerose;
+    font-family: big_noodle_titling;
     font-weight: 100;
     font-size: 50px;
     margin: 0;
@@ -85,7 +85,7 @@ body{
 
 .descrizione{
     color: grey;
-    font-family: bellerose;
+    font-family: big_noodle_titling;
     font-weight: 100;
     font-size: 25px;
     margin-top: -20px;
