@@ -53,9 +53,9 @@ body{
 }
 
 #logo{
-    margin-bottom: 150%;
+    margin-bottom: 10%;
     width: 50%;
-    margin-top: 150%;
+    margin-top: 10%;
 }
 
 .elemento{
@@ -63,7 +63,7 @@ body{
 }
 
 .titolo{
-    color: gold;
+    color: dark grey;
     font-family: bellerose;
     font-weight: 100;
     font-size: 50px;
@@ -76,7 +76,7 @@ body{
 }
 
 .prezzo > h2{
-    color: grey;
+    color: dark grey;
     font-family: bellerose;
     font-weight: 100;
     font-size: 50px;
@@ -98,7 +98,7 @@ body{
 }
 
 .titolo-menu{
-    color: grey;
+    color: dark gold;
     font-family: vanillawhale;
     font-size: 200px;
     font-weight: 100;
