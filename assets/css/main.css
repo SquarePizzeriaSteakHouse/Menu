@@ -53,9 +53,9 @@ body{
 }
 
 #logo{
-    margin-bottom: 10%;
-    width: 93%;
-    margin-top: 10%;
+    margin-bottom: 0%;
+    width: 99%;
+    margin-top: 0%;
 }
 
 .elemento{
@@ -63,7 +63,7 @@ body{
 }
 
 .titolo{
-    color: dark grey;
+    color: black;
     font-family: bellerose;
     font-weight: 100;
     font-size: 50px;
@@ -76,7 +76,7 @@ body{
 }
 
 .prezzo > h2{
-    color: dark grey;
+    color: black;
     font-family: bellerose;
     font-weight: 100;
     font-size: 50px;
@@ -87,7 +87,7 @@ body{
     color: grey;
     font-family: bellerose;
     font-weight: 100;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: -20px;
     margin-bottom: 0;
     line-height: 110%;
@@ -98,7 +98,7 @@ body{
 }
 
 .titolo-menu{
-    color: brown;
+    color: black;
     font-family: vanillawhale;
     font-size: 200px;
     font-weight: 100;
