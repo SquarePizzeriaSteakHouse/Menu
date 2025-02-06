@@ -1,6 +1,11 @@
 @font-face {
     font-family: lobster;
     src: url(../font/Lobster.otf);
+
+}
+@font-face {
+    font-family: Black Mustang;
+    src: url(../font/Black Mustang.ttf);
 }
 
 @font-face {
@@ -64,7 +69,7 @@ body{
 
 .titolo{
     color: black;
-    font-family: bellerose;
+    font-family: Black Mustang;
     font-weight: 100;
     font-size: 50px;
     margin: 0;
@@ -85,7 +90,7 @@ body{
 
 .descrizione{
     color: grey;
-    font-family: big_noodle_titling;
+    font-family: Black Mustang;
     font-weight: 100;
     font-size: 25px;
     margin-top: -20px;
