@@ -53,9 +53,9 @@ body{
 }
 
 #logo{
-    margin-bottom: 4%;
+    margin-bottom: 150%;
     width: 50%;
-    margin-top: 4%;
+    margin-top: 150%;
 }
 
 .elemento{
@@ -63,7 +63,7 @@ body{
 }
 
 .titolo{
-    color: grey;
+    color: gold;
     font-family: bellerose;
     font-weight: 100;
     font-size: 50px;
