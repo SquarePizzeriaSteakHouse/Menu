@@ -4,8 +4,8 @@
 
 }
 @font-face {
-    font-family: blackmustang;
-    src: url(../font/Black Mustang.ttf);
+    font-family: bnt;
+    src: url(../font/big_noodle_titling.ttf);
 }
 
 @font-face {
@@ -69,7 +69,7 @@ body{
 
 .titolo{
     color: black;
-    font-family: blackmustang;
+    font-family: bnt;
     font-weight: 100;
     font-size: 50px;
     margin: 0;
@@ -82,7 +82,7 @@ body{
 
 .prezzo > h2{
     color: black;
-    font-family: big_noodle_titling;
+    font-family: bnt;
     font-weight: 100;
     font-size: 50px;
     margin: 0;
@@ -90,7 +90,7 @@ body{
 
 .descrizione{
     color: grey;
-    font-family: Black Mustang;
+    font-family: bnt;
     font-weight: 100;
     font-size: 25px;
     margin-top: -20px;
