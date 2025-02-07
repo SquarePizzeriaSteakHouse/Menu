@@ -53,8 +53,8 @@ body{
 .titolo-sezione{
     color: darkgoldenrod;
     font-family:vanillawhale;
-    font-size: 110px;
-    font-weight: 100;
+    font-size: 80px;
+    font-weight: 80;
 }
 
 #logo{
@@ -70,7 +70,7 @@ body{
 .titolo{
     color: black;
     font-family: bnt;
-    font-weight: 80;
+    font-weight: 20;
     font-size: 60px;
     margin: 0;
 }
