@@ -58,9 +58,9 @@ body{
 }
 
 #logo{
-    margin-bottom: 15%;
+    margin-bottom: 25%;
     width: 99%;
-    margin-top: 35%;
+    margin-top: 45%;
 }
 
 .elemento{
@@ -103,7 +103,7 @@ body{
 }
 
 .titolo-menu{
-    color: goldenrod;
+    color: sienna;
     font-family: vanillawhale;
     font-size: 250px;
     font-weight: 120;
