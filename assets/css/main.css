@@ -53,7 +53,7 @@ body{
 .titolo-sezione{
     color: darkgoldenrod;
     font-family:vanillawhale;
-    font-size: 80px;
+    font-size: 100px;
     font-weight: 90;
 }
 
@@ -70,7 +70,7 @@ body{
 .titolo{
     color: black;
     font-family: bnt;
-    font-weight: 100;
+    font-weight: 80;
     font-size: 60px;
     margin: 0;
 }
@@ -83,7 +83,7 @@ body{
 .prezzo > h2{
     color: black;
     font-family: bnt;
-    font-weight: 100;
+    font-weight: 80;
     font-size: 60px;
     margin: 0;
 }
