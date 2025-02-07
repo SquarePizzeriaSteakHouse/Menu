@@ -19,7 +19,7 @@
 }
 
 body{
-    background-image: url(../images/4413558_92884.jpg);
+    background-image: url(../IMG_0004.JPG);
     background-repeat: repeat;
     background-size: contain;
 }
@@ -58,9 +58,9 @@ body{
 }
 
 #logo{
-    margin-bottom: 25%;
+    margin-bottom: 40%;
     width: 99%;
-    margin-top: 45%;
+    margin-top: 55%;
 }
 
 .elemento{
