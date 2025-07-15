@@ -70,7 +70,7 @@ body{
 .titolo{
     color: black;
     font-family: bnt;
-    font-weight: 80;
+    font-weight: 800;
     font-size: 60px;
     margin: 0;
 }
@@ -83,7 +83,7 @@ body{
 .prezzo > h2{
     color: black;
     font-family: bnt;
-    font-weight: 80;
+    font-weight: 800;
     font-size: 60px;
     margin: 0;
 }
@@ -106,7 +106,7 @@ body{
     color: sienna;
     font-family: vanillawhale;
     font-size: 250px;
-    font-weight: 120;
+    font-weight: 200;
 }
 
 .centrale .descrizione{
